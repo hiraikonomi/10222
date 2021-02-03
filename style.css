@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	list-style:none;
+}
+
+
+html, body{
+	height:100%;
+	background: linear-gradient(#ffff, #fffff) fixed;
+	background-color:#F2F2F2;
+}
+h3{
+	font-size: 45px;
+	text-align: center;
+}
+
+
+
+
+.wf-nicomoji { font-family: "Nico Moji"; }
+.wf-roundedmplus1c { font-family: "M PLUS Rounded 1c"; }
+.wf-roundedmplus1cc { 
+	font-size: 20px;
+	font-family: "M PLUS Rounded 1c"; }
+
+
+/*スライドショー始まり*/
+<style type="text/css">
+#slideshow {
+   position: relative;
+   width:  1400px; /* ボックスの横幅 */
+   height: 500px; /* ボックスの高さ */
+}
+
+#slideshow p {
+   position: absolute;
+   top:  0;
+   left: 0;
+   z-index: 8;
+   opacity: 0.0;
+   margin: 0;
+   background-color: white; /* ボックスの背景色(必須) */
+   height: auto; /* ボックスの高さ */
+}
+
+#slideshow p.active {
+   z-index: 10;
+   opacity: 1.0;
+}
+
+#slideshow p.last-active {
+   z-index: 9;
+}
+
+#slideshow p img {
+   max-width:100%; /* 画像の横幅 */
+   height:auto  ; /* 画像の高さ */
+   display: block;
+   border: 0;
+   margin-bottom: 10px; /* 画像下部の余白 */
+}
+</style>
+
+
+}
+/*スライドショー終わり*/
+
+
+#sima{
+	 margin-top: 0px  ; /* 画像の高さ */
+}
+
+
+
+
+
+
+
+
+.cover-img {
+	height: 300px;
+	display: table;
+	width: 100%;
+	background-size: cover;
+}
+
+/* ワイドスクリーン用のCSS */
+@media only screen and (min-width: 1500px) {
+	.cover-img {
+		height: 800px;
+	}
+}
+
+/* タブレット用のCSS */
+@media only screen and (min-width : 768px) and (max-width : 1200px) {
+	.cover-img {
+		height: 330px;
+	}
+}
+
+/* スマホ用のCSS */
+@media only screen and (max-width: 400px) {
+	.cover-img {
+		height: 250px;
+	}
+}
+
+.cover-text {
+	display: table-cell;
+	vertical-align: middle;
+  text-align: center;
+}
+
+
+.container-fluid{
+	padding-bottom: 30px;
+	padding-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+#botun{
+	border-radius: 100px;
+}
+
+a {
+	color:#FFFFFF;
+	padding:100px;
+	border-radius: 100px;
+	}
+
+
+
+
+
+
+
+
+
+
+address{
+	text-align: center;
+	font-size:15px;
+	padding-top: 50px;
+	padding-bottom:40px;
+}
+
+.parent {
+    text-align: center;         /* 子要素を左右中央揃えにする */
+    border: solid 0px;          /* 枠線指定 */
+    padding:  20px;             /* 余白指定 */
+	
+}
+
+.inline-block_test {
+    display: inline-block;      /* インラインブロック要素にする */
+        /* 背景色指定 */
+    padding-top: 70px;              /* 余白指定 */
+	background-color:#FFFFFF;    /* 背景色指定 */
+	padding: 0px;             /* 余白指定 */
+    height: 0px;              /* 高さ指定 */
+}
+
+
+footer{
+	background-color:#43c6ac;
+	
+}
+
+
+
+
+
